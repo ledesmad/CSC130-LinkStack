@@ -1,17 +1,17 @@
-package csc130.data.arraystack;
+package csc.data.linkedstack;
 
-public interface StackADT<E> {
+public interface StackADT<T> {
 
-	public void push(E element);
-	
-	public E pop();
-	
-	public E peek();
-	
-	public boolean isEmpty();
-	
-	public int size();
-	
-	public String toString();
-	
+  public void push(T element);
+
+  public T pop();
+
+  public T peek();
+
+  public boolean isEmpty();
+
+  public int size();
+
+  public String toString();
+
 }
