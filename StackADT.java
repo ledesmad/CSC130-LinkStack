@@ -1,12 +1,12 @@
 package csc.data.linkedstack;
 
-public interface StackADT<T> {
+public interface StackADT<E> {
 
-  public void push(T element);
+  public void push(E element);
 
-  public T pop();
+  public E pop();
 
-  public T peek();
+  public E peek();
 
   public boolean isEmpty();
 
